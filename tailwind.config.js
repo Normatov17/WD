@@ -11,7 +11,8 @@ module.exports = {
         brands:{
           ochkok: "#34547A",
           oqroq: "#EEEFF1",
-          kulrang: "#727272"
+          kulrang: "#727272",
+          toqkulrang: "#34547A"
         }
       },
 
