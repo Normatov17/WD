@@ -1,9 +1,15 @@
 AOS.init();
 
 // media
-const menuHumburger = document.querySelector(".menu-burger");
-const menuLinks = document.querySelector(".menu-Links");
+const btn = document.getElementById('menu-btn')
+const menu = document.getElementById('menu')
 
-menuHumburger.addEventListener("click", (e) => {
-    menuLinks.classList.toggle("open");
-});
+btn.addEventListener('click', navToggle)
+
+function navToggle() {
+  btn.classList.toggle('open')
+  menu.classList.toggle('flex')
+  menu.classList.toggle('hidden')
+}
+
+  
