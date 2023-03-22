@@ -11,7 +11,7 @@
         <title>WD</title>
     </head>
     <body class="font-roboto">
-        <div class="bg-brands-oqroq pt-14 pb-36">
+        <div id="glavniy" class="bg-brands-oqroq pt-14 pb-36">
             <div class="max-w-6xl px-5 mx-auto">
                 <!-- Top -->
                 <div class="flex items-center justify-between pb-24 md:pb-40">
@@ -36,12 +36,12 @@
                           <span class="hamburger-bottom"></span>
                         </button>
                       </div>
-                    <div id="menu"  class=" absolute top-0 right-0 w-3/4 bg-gray-300 h-full z-10 pt-24 pl-16 flex flex-col gap-y-6 menu-Links">
-                            <a href="#" class="text-black text-base font-bold hover:text-red-700 transition duration-300 block">ГЛАВНАЯ</a>
-                            <a href="#" class="text-black text-base font-bold hover:text-red-700 transition duration-300 block">ОБ АВТОРЕ</a>
-                            <a href="#" class="text-black text-base font-bold hover:text-red-700 transition duration-300 block">РАБОТЫ</a>
-                            <a href="#" class="text-black text-base font-bold hover:text-red-700 transition duration-300 block">ПРОЦЕСС</a>
-                            <a href="#" class="text-black text-base font-bold hover:text-red-700 transition duration-300 block">КОНТАКТЫ</a>
+                    <div id="menu" class="absolute top-0 right-0 hidden flex-col self-end w-3/4 min-h-screen pt-24 pl-12 space-y-3 z-20 bg-brands-toqkulrang">
+                            <a href="#glavniy" class="text-white text-base font-medium hover:text-red-700 transition duration-300 block">ГЛАВНАЯ</a>
+                            <a href="#aftor" class="text-white text-base font-medium hover:text-red-700 transition duration-300 block">ОБ АВТОРЕ</a>
+                            <a href="#rabota" class="text-white text-base font-medium hover:text-red-700 transition duration-300 block">РАБОТЫ</a>
+                            <a href="#prosess" class="text-white text-base font-medium hover:text-red-700 transition duration-300 block">ПРОЦЕСС</a>
+                            <a href="#kontakt" class="text-white text-base font-medium hover:text-red-700 transition duration-300 block">КОНТАКТЫ</a>
                     </div>
                 </div>
 
@@ -138,7 +138,7 @@
         </section>
 
         <!-- Мои навыки -->
-        <section class="py-24">
+        <section id="aftor" class="py-24">
             <div class="max-w-6xl px-5 mx-auto flex flex-col lg:flex-row items-center justify-between gap-y-20">
                 <div data-aos="fade-right" class="">
                     <h2 class="text-3xl font-medium mb-12">Мои навыки</h2>
@@ -172,7 +172,7 @@
         </section>
 
         <!-- Как я работаю -->
-        <section class="py-24 bg-brands-oqroq">
+        <section id="rabota" class="py-24 bg-brands-oqroq">
             <div class="max-w-6xl px-5 mx-auto flex flex-col items-center justify-center">
                 <div data-aos="fade-up" class="mb-12">
                     <h2 class="text-3xl font-medium text-center">Как я работаю</h2>
@@ -191,7 +191,7 @@
         </section>
 
         <!-- Grid -->
-        <section class=" pt-7 pb-24">
+        <section id="prosess" class=" pt-7 pb-24">
             <div class="grid md:grid-cols-2 lg:grid-cols-4 items-center mx-auto w-full justify-center mb-[72px]">
                 <a href="#" class=" group">
                     <img src="./img/book.svg" alt="">
@@ -230,7 +230,7 @@
         </section>
 
         <!-- Хотите веб-сайт? -->
-        <section class="py-14 md:py-[100px] bg-brands-oqroq">
+        <section id="kontakt" class="py-14 md:py-[100px] bg-brands-oqroq">
             <div class="max-w-[580px] px-5 mx-auto">
                 <h3 class="text-4xl font-medium text-center mb-12">
                     Хотите веб-сайт?
