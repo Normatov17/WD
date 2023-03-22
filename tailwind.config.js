@@ -12,7 +12,8 @@ module.exports = {
           ochkok: "#34547A",
           oqroq: "#EEEFF1",
           kulrang: "#727272",
-          toqkulrang: "#34547A"
+          toqkulrang: "#34547A",
+          shoffof: "#34547A '80%'"
         }
       },
 
