@@ -550,9 +550,6 @@ video {
 .w-10\/12 {
   width: 83.333333%;
 }
-.w-3\/4 {
-  width: 75%;
-}
 .w-\[300px\] {
   width: 300px;
 }
@@ -729,6 +726,15 @@ video {
 .pt-7 {
   padding-top: 1.75rem;
 }
+.pl-20 {
+  padding-left: 5rem;
+}
+.pt-32 {
+  padding-top: 8rem;
+}
+.pl-28 {
+  padding-left: 7rem;
+}
 .text-center {
   text-align: center;
 }
@@ -754,9 +760,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.font-bold {
-  font-weight: 700;
 }
 .font-medium {
   font-weight: 500;
